@@ -1,0 +1,298 @@
+
+.photo{
+	width: 200px;
+	height: 130px;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+.conteneur{
+	display: flex;
+	justify-content: center;
+
+}
+
+.personnelle{
+	width: 25%;
+	background-color: #EEE;
+
+}
+.information{
+	text-align:center;
+}
+
+.conctat{
+	text-align: center;
+	justify-content: center;
+}
+.numero{
+
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	background-color:#EEE;
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 10px;;
+}
+.langues{
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center
+}
+
+
+.localisation{
+	margin-left: 100px;
+}
+
+.langue{
+	
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	background-color:#EEE;
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 10px;
+
+
+}
+.informatique{
+	margin:auto;
+
+	text-align: center;
+	width: 50%;
+	background-color:#EEE;
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 10px;
+
+}
+.excel{
+}
+.excel1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.excel2{
+	background-color:blue;
+	width: 70%;
+	height: 5px;
+
+}
+
+.word1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.word2{
+	background-color:blue;
+	width: 80%;
+	height: 5px;
+
+}
+.powerpoint1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.powerpoint2{
+	background-color:blue;
+	width: 70%;
+	height: 5px;
+
+}
+.illustrator1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.illustrator2{
+	background-color:blue;
+	width: 50%;
+	height: 5px;
+
+}
+.illustrator1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.illustrator2{
+	background-color:blue;
+	width: 70%;
+	height: 5px;
+
+}
+.photoshop1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.photoshop2{
+	background-color:blue;
+	width: 80%;
+	height: 5px;
+
+}
+.html1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.html2{
+	background-color:blue;
+	width: 70%;
+	height: 5px;
+
+}
+.css1{
+	background-color: #fff;
+	width: 90%;
+	height: 5px;
+	border-radius: 5px;
+}
+
+
+.css2{
+	background-color:blue;
+	width: 70%;
+	height: 5px;
+
+}
+
+.loisir{
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+.interet{
+	margin:auto;
+	margin-top: 20px;
+	text-align: center;
+	width: 50%;
+	background-color:#EEE;
+	border: 1px solid black;
+	border-radius: 50px;
+	padding: 10px;
+}
+/* Début de la  deuxieme parties*/
+
+.qualification{
+	width: 50%;
+	background-color:#1C7295;
+	color: white;
+	font-size: 20px;
+}
+.diplome{
+	margin-top: 50px;
+
+
+}
+.boulot{
+
+	margin-left: 100px;
+	text-align: center;
+	width: 50%;
+	height: 30px;
+	background-color:#1C7295;
+	border: 1px solid white;
+	border-radius: 50px; 
+	padding: 10px 0px;
+
+
+}
+
+.formations{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.formation{
+
+	margin-left: 100px; 
+	text-align: center;
+	width: 50%;
+	height: 30px;
+	background-color:#1C7295;
+	border: 2px solid white;
+	border-radius: 50px; 
+	padding: 10px 0px;
+}
+p.info{
+	margin-left: 30px;
+}
+.atout{
+
+	margin-left: 100px;
+	text-align: center;
+	width: 50%;
+	height: 30px;
+	background-color:#1C7295;
+	border: 1px solid white;
+	border-radius: 50px; 
+	padding: 10px 0px;
+}
+
+@media screen and (max-width:600px) {
+    
+    *,*::after,*::befor{
+    	padding: 0;
+    	margin: 0;
+    	box-sizing: border-box;
+    }
+
+	.conteneur{
+	    display: block;
+		align-items: center;
+	}
+	.personnelle{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.qualification{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		
+	}
+	.loisir{
+	margin: 0;
+	padding: 0;
+
+    }
+  .diplome{
+	margin: -15px;
+	padding: 0;
+   }
+  .interet{
+	 
+	padding:10px;
+
+   }
+}
+
